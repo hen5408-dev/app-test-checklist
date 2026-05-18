@@ -86,26 +86,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
 .sbtn.ar{background:#FCEBEB;color:#A32D2D;border-color:#F7C1C1;font-weight:500}
 .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
 .dg{background:#3B6D11}.dr{background:#A32D2D}
-.flow-header{display:flex;align-items:center;justify-content:space-between;padding:10px 13px;border-radius:10px;margin:10px 0 8px;flex-wrap:wrap;gap:8px}
-.fh-blue{background:#E6F1FB;border:1.5px solid #B5D4F4}
-.fh-teal{background:#E1F5EE;border:1.5px solid #9FE1CB}
-.flow-header-left{display:flex;align-items:center;gap:8px}
-.flow-tag{font-size:11px;font-weight:700;padding:2px 9px;border-radius:999px;background:#fff;border:0.5px solid #d3d1c7;color:#444441}
-.fh-blue .flow-tag{background:#185FA5;color:#fff;border-color:#185FA5}
-.fh-teal .flow-tag{background:#0F6E56;color:#fff;border-color:#0F6E56}
-.flow-title{font-size:15px;font-weight:600;color:#1a1a18}
-.fh-blue .flow-title{color:#0C447C}
-.fh-teal .flow-title{color:#085041}
-.flow-btn{font-size:11px;padding:3px 12px;border-radius:999px;border:0.5px solid #d3d1c7;background:#fff;color:#888780;cursor:pointer;transition:all 0.15s}
-.flow-btn.active{background:#0F6E56;color:#fff;border-color:#0F6E56}
-.flow-btn.selected{font-weight:600}
-.fh-blue .flow-btn.active{background:#185FA5;border-color:#185FA5}
-.flow-skip-label{font-size:11px;color:#888780;margin-left:4px}
-.flow-divider{height:2px;background:linear-gradient(to right,#e8e6df,#d3d1c7,#e8e6df);margin:16px 0;border-radius:1px}
-.feature-divider{border:none;border-top:2px dashed #d3d1c7;margin:1.5rem 0}
-.flow-section{transition:opacity 0.2s}
-.flow-section.dimmed{opacity:0.35;pointer-events:none}
-.info-box{font-size:11px;.info-box{font-size:11px;color:#888780;background:#f9f9f7;border:0.5px solid #e8e6df;border-radius:8px;padding:7px 10px;margin-bottom:8px;display:flex;align-items:flex-start;gap:5px;line-height:1.5}
+.info-box{font-size:11px;color:#888780;background:#f9f9f7;border:0.5px solid #e8e6df;border-radius:8px;padding:7px 10px;margin-bottom:8px;display:flex;align-items:flex-start;gap:5px;line-height:1.5}
 .fb-section{margin-top:1rem;border:0.5px solid #e8e6df;border-radius:12px;overflow:hidden;background:#fff}
 .fb-hdr{display:flex;align-items:center;gap:9px;padding:9px 13px;border-bottom:0.5px solid #e8e6df;background:#f9f9f7}
 .fb-icon{width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0}
@@ -115,19 +96,19 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
 .fb-textarea{width:100%;min-height:58px;font-size:12px;padding:7px 9px;border:0.5px solid #d3d1c7;border-radius:8px;background:#fff;color:#1a1a18;resize:vertical;font-family:inherit;line-height:1.5}
 .fb-textarea:focus{outline:none;border-color:#0F6E56}
 .cl-block{border:0.5px solid #e8e6df;border-radius:12px;overflow:hidden;background:#fff;margin-bottom:1rem}
-.cl-hdr{display:flex;align-items:center;gap:8px;padding:10px 13px;background:#f9f9f7;border-bottom:0.5px solid #e8e6df;font-size:inherit;font-weight:600;color:#1a1a18}
+.cl-hdr{display:flex;align-items:center;gap:8px;padding:10px 13px;background:#f9f9f7;border-bottom:0.5px solid #e8e6df;font-size:13px;font-weight:600;color:#1a1a18}
 .cl-body{padding:10px 13px}
 .cl-points{list-style:none;margin-bottom:10px}
-.cl-points li{font-size:inherit;color:#444441;line-height:1.7;display:flex;gap:6px}
+.cl-points li{font-size:12px;color:#444441;line-height:1.7;display:flex;gap:6px}
 .cl-points li::before{content:"\2022";color:#0F6E56;flex-shrink:0}
 .cl-img{margin-top:8px;border-radius:8px;overflow:hidden;border:0.5px solid #e8e6df}
-.cl-img img{width:100%;display:block;max-height:220px;object-fit:cover;object-position:top}
-.cl-img-caption{font-size:12px;color:#888780;padding:5px 9px;background:#f9f9f7;border-top:0.5px solid #e8e6df}
-.cl-imgs-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px;align-items:start}
-.cl-imgs-row .cl-img{min-width:0;margin-top:0}
+.cl-img img{width:100%;display:block}
+.cl-img-caption{font-size:11px;color:#888780;padding:5px 9px;background:#f9f9f7;border-top:0.5px solid #e8e6df}
+.cl-imgs-row{display:flex;gap:8px;margin-top:8px}
+.cl-imgs-row .cl-img{flex:1;min-width:0}
 .test-block{border:0.5px solid #e8e6df;border-radius:12px;overflow:hidden;background:#fff;margin-bottom:1.25rem}
 .test-hdr{display:flex;align-items:center;gap:9px;padding:8px 13px;border-bottom:0.5px solid #e8e6df;background:#E1F5EE}
-.test-hdr-title{font-size:inherit;font-weight:600;color:#0F6E56;flex:1}
+.test-hdr-title{font-size:12px;font-weight:600;color:#0F6E56;flex:1}
 .test-body{padding:6px 13px 10px}
 .confirm-wrap{margin-top:1.25rem}
 .confirm-btn{width:100%;padding:12px;border-radius:12px;border:none;background:#0F6E56;color:#fff;font-size:14px;font-weight:500;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px;transition:background 0.15s}
@@ -143,6 +124,40 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#1a1a18;color:#fff;padding:10px 20px;border-radius:999px;font-size:13px;font-weight:500;opacity:0;transition:all 0.3s;pointer-events:none;z-index:9999;white-space:nowrap}
 .toast.show{transform:translateX(-50%) translateY(0);opacity:1}
 @keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── Flow section headers ── */
+.flow-hdr{border-radius:10px;padding:11px 14px;margin:12px 0 6px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;border-width:2px;border-style:solid}
+.flow-hdr-blue{background:#E6F1FB;border-color:#185FA5}
+.flow-hdr-teal{background:#E1F5EE;border-color:#0F6E56}
+.flow-hdr-left{display:flex;align-items:center;gap:10px}
+.flow-num{font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px;color:#fff}
+.flow-hdr-blue .flow-num{background:#185FA5}
+.flow-hdr-teal .flow-num{background:#0F6E56}
+.flow-name{font-size:16px;font-weight:700}
+.flow-hdr-blue .flow-name{color:#0C447C}
+.flow-hdr-teal .flow-name{color:#085041}
+.flow-use-btn{font-size:13px;font-weight:600;padding:6px 16px;border-radius:999px;border:2px solid;cursor:pointer;transition:all 0.15s;white-space:nowrap}
+.flow-hdr-blue .flow-use-btn{background:#fff;color:#185FA5;border-color:#185FA5}
+.flow-hdr-blue .flow-use-btn:hover{background:#185FA5;color:#fff}
+.flow-hdr-blue .flow-use-btn.chosen{background:#185FA5;color:#fff}
+.flow-hdr-teal .flow-use-btn{background:#fff;color:#0F6E56;border-color:#0F6E56}
+.flow-hdr-teal .flow-use-btn:hover{background:#0F6E56;color:#fff}
+.flow-hdr-teal .flow-use-btn.chosen{background:#0F6E56;color:#fff}
+/* ── Flow section body ── */
+.flow-body{transition:opacity 0.25s,filter 0.25s}
+.flow-body.skipped{opacity:0.3;pointer-events:none;filter:grayscale(80%)}
+/* ── Flow divider ── */
+.flow-divider{border:none;border-top:2px dashed #b4b2a9;margin:1.5rem 0}
+/* ── Feature divider (Tab 2) ── */
+.feature-divider{border:none;border-top:2px dashed #d3d1c7;margin:1.5rem 0}
+/* ── Tab 2 font fix ── */
+.cl-points li{font-size:inherit;color:#444441;line-height:1.7;display:flex;gap:6px}
+.cl-hdr{display:flex;align-items:center;gap:8px;padding:10px 13px;background:#f9f9f7;border-bottom:0.5px solid #e8e6df;font-size:inherit;font-weight:600;color:#1a1a18}
+.test-hdr-title{font-size:inherit;font-weight:600;color:#0F6E56;flex:1}
+/* ── Images compact grid ── */
+.cl-imgs-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px;align-items:start}
+.cl-imgs-row .cl-img{min-width:0;margin-top:0}
+.cl-img img{width:100%;display:block;max-height:200px;object-fit:cover;object-position:top}
 </style>
 </head>
 <body>
@@ -244,18 +259,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
         <span>操作每個步驟後立即記錄執行時間（時:分），以便與後台 LOG 核對</span>
       </div>
 
-      <div class="flow-header fh-blue" id="fh-31">
-        <div class="flow-header-left">
-          <span class="flow-tag">1.1</span>
-          <span class="flow-title">有新點位流程</span>
+      <div class="flow-hdr flow-hdr-blue" id="fh-31">
+        <div class="flow-hdr-left">
+          <span class="flow-name">有新點位流程</span>
         </div>
-        <div class="flow-toggle">
-          <button class="flow-btn active" id="btn-use-31" onclick="selectFlow('31')">使用此流程</button>
-          <span class="flow-skip-label" id="skip-label-31"></span>
-        </div>
+        <button class="flow-use-btn" id="btn-31" onclick="selectFlow('31')">▶ 選擇此流程</button>
       </div>
-    <div class="flow-section" id="flow-31">
-      <div class="ci">
+      <div class="flow-body" id="flow-31">
+    <div class="ci">
         <input type="checkbox" onchange="updateProg()"/>
         <div>
           <label>1. 開啟 APP，搜尋裝置成功，連線藍芽</label>
@@ -280,42 +291,38 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
       
       <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>4. 開始治療</label><input type="time" class="time-input" id="t32_start"/></div>
       <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>5. 暫停</label><input type="time" class="time-input" id="t32_pause"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>6. 將最新點位加入我的最愛，取名儲存後可於右上角查看</label><input type="time" class="time-input" id="t32_fav"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>6. 將最新點位加入我的最愛，取名儲存後可於右上角查看</label><input type="time" class="time-input" id="t31_fav"/></div>
       <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>7. 再次開始治療</label><input type="time" class="time-input" id="t32_restart"/></div>
       <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>8. 再套用其他我的最愛一次（確認衣服點位更新）</label><input type="time" class="time-input" id="t32_favchange"/></div>
       <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>9. 治療結束語音出現 → 回到智慧管家等待資料上傳</label><input type="time" class="time-input" id="t32_end"/></div>
       <div class="divider"></div>
 
-        </div><!-- end flow-31 -->
-      <div class="flow-divider"></div>
-      <div class="flow-header fh-teal" id="fh-32">
-        <div class="flow-header-left">
-          <span class="flow-tag">1.2</span>
-          <span class="flow-title">無新點位流程</span>
+      </div><!-- /flow-31 -->
+      <hr class="flow-divider"/>
+      <div class="flow-hdr flow-hdr-teal" id="fh-32">
+        <div class="flow-hdr-left">
+          <span class="flow-name">無新點位流程</span>
         </div>
-        <div class="flow-toggle">
-          <button class="flow-btn active" id="btn-use-32" onclick="selectFlow('32')">使用此流程</button>
-          <span class="flow-skip-label" id="skip-label-32"></span>
-        </div>
+        <button class="flow-use-btn" id="btn-32" onclick="selectFlow('32')">▶ 選擇此流程</button>
       </div>
-      <div class="flow-section" id="flow-32">
-     <div class="ci"><input type="checkbox" onchange="updateProg()"/><label>10. 進入陪伴旅程 → 開始穿衣 → 產品列表選擇紅光衣</label></div>
+      <div class="flow-body" id="flow-32">
+     <div class="ci"><input type="checkbox" onchange="updateProg()"/><label>1. 進入陪伴旅程 → 開始穿衣 → 產品列表選擇紅光衣</label></div>
       <div class="ci">
         <input type="checkbox" onchange="updateProg()"/>
         <div>
-          <label>11. 開啟 APP，搜尋裝置成功，連線藍芽</label>
+          <label>2. 開啟 APP，搜尋裝置成功，連線藍芽</label>
           <div class="note"><i class="ti ti-alert-triangle"></i>若未連上：滑掉 APP 畫面 + 重開控制器，並記錄事件</div>
         </div>
       </div>
-      <div class="ci"><input type="checkbox" onchange="updateProg()"/><label>12. 進入智慧管家頁面</label></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>13. 開始治療</label><input type="time" class="time-input" id="t31_start"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>14. 暫停</label><input type="time" class="time-input" id="t31_pause"/></div>
-           <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>15. 將最新點位加入我的最愛，取名儲存後可於右上角查看</label><input type="time" class="time-input" id="t32_fav"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>16. 再次開始治療</label><input type="time" class="time-input" id="t31_restart"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>17. 再套用其他我的最愛一次（確認衣服點位更新）</label><input type="time" class="time-input" id="t31_favchange"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>18. 治療結束語音出現 → 回到智慧管家等待資料上傳</label><input type="time" class="time-input" id="t31_end"/></div>
+      <div class="ci"><input type="checkbox" onchange="updateProg()"/><label>3. 進入智慧管家頁面</label></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>4. 開始治療</label><input type="time" class="time-input" id="t31_start"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>5. 暫停</label><input type="time" class="time-input" id="t31_pause"/></div>
+           <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>6. 將最新點位加入我的最愛，取名儲存後可於右上角查看</label><input type="time" class="time-input" id="t32_fav"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>7. 再次開始治療</label><input type="time" class="time-input" id="t31_restart"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>8. 再套用其他我的最愛一次（確認衣服點位更新）</label><input type="time" class="time-input" id="t31_favchange"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>9. 治療結束語音出現 → 回到智慧管家等待資料上傳</label><input type="time" class="time-input" id="t31_end"/></div>
 
-      </div><!-- end flow-32 -->
+      </div><!-- /flow-32 -->
     </div>
   </div>
 
@@ -593,37 +600,23 @@ function showSuccess(p){
 
 function selectFlow(flow) {
   const other = flow === '31' ? '32' : '31';
-  const section = document.getElementById('flow-' + flow);
-  const otherSection = document.getElementById('flow-' + other);
-  const btn = document.getElementById('btn-use-' + flow);
-  const otherBtn = document.getElementById('btn-use-' + other);
-  const skipLabel = document.getElementById('skip-label-' + flow);
-  const otherSkipLabel = document.getElementById('skip-label-' + other);
-  const fh = document.getElementById('fh-' + flow);
-  const otherFh = document.getElementById('fh-' + other);
-
-  const isActive = btn.classList.contains('selected');
-
-  if (isActive) {
-    // Deselect — reset both
-    section.classList.remove('dimmed');
-    otherSection.classList.remove('dimmed');
-    btn.classList.remove('selected');
-    btn.textContent = '使用此流程';
-    otherBtn.classList.remove('selected');
-    otherBtn.textContent = '使用此流程';
-    skipLabel.textContent = '';
-    otherSkipLabel.textContent = '';
+  const btn = document.getElementById('btn-' + flow);
+  const otherBtn = document.getElementById('btn-' + other);
+  const body = document.getElementById('flow-' + flow);
+  const otherBody = document.getElementById('flow-' + other);
+  const isChosen = btn.classList.contains('chosen');
+  if (isChosen) {
+    btn.classList.remove('chosen');
+    btn.textContent = '▶ 選擇此流程';
+    otherBody.classList.remove('skipped');
+    otherBtn.textContent = '▶ 選擇此流程';
+    otherBtn.classList.remove('chosen');
   } else {
-    // Select this flow, dim the other
-    section.classList.remove('dimmed');
-    otherSection.classList.add('dimmed');
-    btn.classList.add('selected');
-    btn.textContent = '✓ 已選擇';
-    otherBtn.classList.remove('selected');
-    otherBtn.textContent = '跳過此流程';
-    skipLabel.textContent = '';
-    otherSkipLabel.textContent = '（已跳過）';
+    btn.classList.add('chosen');
+    btn.textContent = '✓ 已選擇此流程';
+    otherBody.classList.add('skipped');
+    otherBtn.classList.remove('chosen');
+    otherBtn.textContent = '（跳過）';
   }
   updateProg();
 }
