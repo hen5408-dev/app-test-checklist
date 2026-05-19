@@ -267,20 +267,20 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
       </div>
       <div class="flow-body" id="flow-31">
     <div class="ci">
-        <input type="checkbox" onchange="updateProg()"/>
+        <input type="checkbox" onchange="updateProg()" id="cb31_1"/>
         <div>
           <label>1. 開啟 APP，搜尋裝置成功，連線藍芽</label>
           <div class="note"><i class="ti ti-alert-triangle"></i>若未連上：滑掉 APP 畫面 + 重開控制器，並記錄事件</div>
         </div>
       </div>
       <div class="ci">
-        <input type="checkbox" onchange="updateProg()"/>
+        <input type="checkbox" onchange="updateProg()" id="cb31_2"/>
         <div>
           <label>2. 進入智慧管家頁面</label>
         </div>
       </div>
       <div class="ci">
-        <input type="checkbox" onchange="updateProg()"/>
+        <input type="checkbox" onchange="updateProg()" id="cb31_3"/>
         <div>
           <label>3. 進到智慧管家介面後，最新點位是否「自動」更新完成</label>
           <div style="margin-top:6px;border-radius:8px;overflow:hidden;border:0.5px solid #e8e6df;max-width:280px">
@@ -289,12 +289,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
         </div>
       </div>
       
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>4. 開始治療</label><input type="time" class="time-input" id="t32_start"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>5. 暫停</label><input type="time" class="time-input" id="t32_pause"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>6. 將最新點位加入我的最愛，取名儲存後可於右上角查看</label><input type="time" class="time-input" id="t31_fav"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>7. 再次開始治療</label><input type="time" class="time-input" id="t32_restart"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>8. 再套用其他我的最愛一次（確認衣服點位更新）</label><input type="time" class="time-input" id="t32_favchange"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>9. 治療結束語音出現 → 回到智慧管家等待資料上傳</label><input type="time" class="time-input" id="t32_end"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb31_4"/><label>4. 開始治療</label><input type="time" class="time-input" id="t31_start"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb31_5"/><label>5. 暫停</label><input type="time" class="time-input" id="t31_pause"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb31_6"/><label>6. 將最新點位加入我的最愛，取名儲存後可於右上角查看</label><input type="time" class="time-input" id="t31_fav"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb31_7"/><label>7. 再次開始治療</label><input type="time" class="time-input" id="t31_restart"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb31_8"/><label>8. 再套用其他我的最愛一次（確認衣服點位更新）</label><input type="time" class="time-input" id="t31_favchange"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb31_9"/><label>9. 治療結束語音出現 → 回到智慧管家等待資料上傳</label><input type="time" class="time-input" id="t31_end"/></div>
       <div class="divider"></div>
 
       </div><!-- /flow-31 -->
@@ -306,20 +306,20 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
         <button class="flow-use-btn" id="btn-32" onclick="selectFlow('32')">▶ 選擇此流程</button>
       </div>
       <div class="flow-body" id="flow-32">
-     <div class="ci"><input type="checkbox" onchange="updateProg()"/><label>1. 進入陪伴旅程 → 開始穿衣 → 產品列表選擇紅光衣</label></div>
+     <div class="ci"><input type="checkbox" onchange="updateProg()" id="cb32_1"/><label>1. 進入陪伴旅程 → 開始穿衣 → 產品列表選擇紅光衣</label></div>
       <div class="ci">
-        <input type="checkbox" onchange="updateProg()"/>
+        <input type="checkbox" onchange="updateProg()" id="cb32_2"/>
         <div>
           <label>2. 開啟 APP，搜尋裝置成功，連線藍芽</label>
           <div class="note"><i class="ti ti-alert-triangle"></i>若未連上：滑掉 APP 畫面 + 重開控制器，並記錄事件</div>
         </div>
       </div>
-      <div class="ci"><input type="checkbox" onchange="updateProg()"/><label>3. 進入智慧管家頁面</label></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>4. 開始治療</label><input type="time" class="time-input" id="t31_start"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>5. 暫停</label><input type="time" class="time-input" id="t31_pause"/></div>
-                 <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>6. 再次開始治療</label><input type="time" class="time-input" id="t31_restart"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>7. 再套用其他我的最愛一次（確認衣服點位更新）</label><input type="time" class="time-input" id="t31_favchange"/></div>
-      <div class="ci-time"><input type="checkbox" onchange="updateProg()"/><label>8. 治療結束語音出現 → 回到智慧管家等待資料上傳</label><input type="time" class="time-input" id="t31_end"/></div>
+      <div class="ci"><input type="checkbox" onchange="updateProg()" id="cb32_3"/><label>3. 進入智慧管家頁面</label></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb32_4"/><label>4. 開始治療</label><input type="time" class="time-input" id="t32_start"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb32_5"/><label>5. 暫停</label><input type="time" class="time-input" id="t32_pause"/></div>
+                <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb32_7"/><label>7. 再次開始治療</label><input type="time" class="time-input" id="t32_restart"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb32_8"/><label>8. 再套用其他我的最愛一次（確認衣服點位更新）</label><input type="time" class="time-input" id="t32_favchange"/></div>
+      <div class="ci-time"><input type="checkbox" onchange="updateProg()" id="cb32_9"/><label>9. 治療結束語音出現 → 回到智慧管家等待資料上傳</label><input type="time" class="time-input" id="t32_end"/></div>
 
       </div><!-- /flow-32 -->
     </div>
@@ -423,11 +423,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
   <div class="test-block">
     <div class="test-hdr"><i class="ti ti-checkbox" style="color:#0F6E56"></i><div class="test-hdr-title">功能 2 測試項目</div></div>
     <div class="test-body">
-      <div class="ci"><input type="checkbox"/><label>6. 後台操作紀錄有完整時間戳記（時間-事件）</label></div>
-      <div class="ci"><input type="checkbox"/><label>7. 確認無遺漏事件（開始／暫停／結束／上傳等）</label></div>
+      <div class="ci"><input type="checkbox"/><label>1. 後台操作紀錄有完整時間戳記（時間-事件）</label></div>
+      <div class="ci"><input type="checkbox"/><label>2. 確認無遺漏事件（開始／暫停／結束／上傳等）</label></div>
       <div class="ci">
         <input type="checkbox"/>
-        <div><label>8. 紅光穿衣測試操作紀錄完整呈現</label>
+        <div><label>3. 紅光穿衣測試操作紀錄完整呈現</label>
         <div class="note"><i class="ti ti-shirt"></i>搭配韌體 0420 或 0401 測試</div></div>
       </div>
       <div style="margin-top:10px">
@@ -468,15 +468,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-siz
     <div class="test-hdr"><i class="ti ti-checkbox" style="color:#0F6E56"></i><div class="test-hdr-title">功能 3 測試項目</div></div>
     <div class="test-body">
       <div class="sub-lbl">前台（APP）</div>
-      <div class="ci"><input type="checkbox"/><label>9. 健康日誌 → 本週摘要頁面正常顯示</label></div>
-      <div class="ci"><input type="checkbox"/><label>10. 「補充內容」入口出現於本週摘要</label></div>
-      <div class="ci"><input type="checkbox"/><label>11. 可自行輸入補充症狀或生活狀況（≤500字）</label></div>
-      <div class="ci"><input type="checkbox"/><label>12. 可回溯編輯兩週內的摘要補充</label></div>
-      <div class="ci"><input type="checkbox"/><label>13. 超過兩週的內容無法修改（正確鎖定）</label></div>
+      <div class="ci"><input type="checkbox"/><label>1. 健康日誌 → 本週摘要頁面正常顯示</label></div>
+      <div class="ci"><input type="checkbox"/><label>2. 「補充內容」入口出現於本週摘要</label></div>
+      <div class="ci"><input type="checkbox"/><label>3. 可自行輸入補充症狀或生活狀況（≤500字）</label></div>
+      <div class="ci"><input type="checkbox"/><label>4. 可回溯編輯兩週內的摘要補充</label></div>
+      <div class="ci"><input type="checkbox"/><label>5. 超過兩週的內容無法修改（正確鎖定）</label></div>
       <div class="divider"></div>
       <div class="sub-lbl">後台</div>
-      <div class="ci"><input type="checkbox"/><label>14. 後台可同步查看 AI 摘要與補充內容</label></div>
-      <div class="ci"><input type="checkbox"/><label>15. 補充內容顯示正確，與 APP 端一致</label></div>
+      <div class="ci"><input type="checkbox"/><label>1. 後台可同步查看 AI 摘要與補充內容</label></div>
+      <div class="ci"><input type="checkbox"/><label>2. 補充內容顯示正確，與 APP 端一致</label></div>
       <div style="margin-top:10px">
         <div class="fb-lbl">回饋備註</div>
         <textarea class="fb-textarea" id="fb-summary" placeholder="例：補充內容入口不容易找到，建議按鈕放大…"></textarea>
@@ -557,6 +557,7 @@ function showToast(msg){
   setTimeout(()=>t.classList.remove('show'),2500);
 }
 function getVal(id){const el=document.getElementById(id);return el?el.value.trim():'';}
+function getCB(id){const el=document.getElementById(id);return el?(el.checked?'Y':'N'):'';}
 function submitAll(){
   const name=getVal('tester-name');
   if(!name){showToast('請先填寫測試人員姓名');return;}
@@ -565,12 +566,22 @@ function submitAll(){
     name, date:getVal('test-date')||'未填',
     bt:'WiseBalance-'+(getVal('device-bt')||'未填'),
     status:statusChoice==='green'?'正常（綠燈）':statusChoice==='red'?'合約到期（紅燈）':'未選',
-    t31_start:getVal('t31_start'), t31_pause:getVal('t31_pause'),
-    t31_fav:getVal('t31_fav'), t31_restart:getVal('t31_restart'),
-    t31_favchange:getVal('t31_favchange'), t31_end:getVal('t31_end'),
-    t32_start:getVal('t32_start'), t32_pause:getVal('t32_pause'),
-    t32_fav:getVal('t32_fav'), t32_restart:getVal('t32_restart'),
-    t32_favchange:getVal('t32_favchange'), t32_end:getVal('t32_end'),
+    // 有新點位流程 — 勾選狀態 + 時間
+    t31_cb1:getCB('cb31_1'), t31_cb2:getCB('cb31_2'), t31_cb3:getCB('cb31_3'),
+    t31_start:getVal('t31_start'), t31_cb4:getCB('cb31_4'),
+    t31_pause:getVal('t31_pause'), t31_cb5:getCB('cb31_5'),
+    t31_fav:getVal('t31_fav'), t31_cb6:getCB('cb31_6'),
+    t31_restart:getVal('t31_restart'), t31_cb7:getCB('cb31_7'),
+    t31_favchange:getVal('t31_favchange'), t31_cb8:getCB('cb31_8'),
+    t31_end:getVal('t31_end'), t31_cb9:getCB('cb31_9'),
+    // 無新點位流程 — 勾選狀態 + 時間
+    t32_cb1:getCB('cb32_1'), t32_cb2:getCB('cb32_2'), t32_cb3:getCB('cb32_3'),
+    t32_start:getVal('t32_start'), t32_cb4:getCB('cb32_4'),
+    t32_pause:getVal('t32_pause'), t32_cb5:getCB('cb32_5'),
+    t32_fav:getVal('t32_fav'), t32_cb6:getCB('cb32_6'),
+    t32_restart:getVal('t32_restart'), t32_cb7:getCB('cb32_7'),
+    t32_favchange:getVal('t32_favchange'), t32_cb8:getCB('cb32_8'),
+    t32_end:getVal('t32_end'), t32_cb9:getCB('cb32_9'),
     fb_ui:getVal('fb-ui'), fb_design:getVal('fb-design'),
     fb_login:getVal('fb-login'), fb_upload:getVal('fb-upload'),
     fb_summary:getVal('fb-summary'),
